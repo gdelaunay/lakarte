@@ -1,0 +1,1110 @@
+<div>
+  <div class="container-fluid">
+      <div id="map" class="row">
+        <div class="img">
+        <img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/fond.png" id="fond" style="z-index:1" alt="Fond de la carte">
+        </div>
+        <div class="img">
+          <img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/centre.png" id="centre" style="z-index:2" alt="Centre-Ville">
+        </div>
+        <div class="img">
+          <img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/bellevue.png" id="bellevue"  style="z-index:3" alt="Bellevue - Chantenay - Saint-Anne">
+        </div>
+        <div class="img">
+          <img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/zola.png" id="zola"  style="z-index:4" alt="Dervallières - Zola">
+        </div>
+        <div class="img">
+          <img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/felix.png" id="felix"  style="z-index:5" alt="Hauts-Pavés - Saint-Félix">
+        </div>
+        <div class="img">
+          <img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/malakoff.png" id="malakoff"  style="z-index:6" alt="Malakoff - Saint-Donatien">
+        </div>
+        <div class="img">
+          <img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/ile.png" id="ile"  style="z-index:7" alt="Ile de Nantes">
+        </div>
+        <div class="img">
+          <img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/breil.png" id="breil"  style="z-index:8" alt="Breil - Barberie">
+        </div>
+        <div class="img">
+          <img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/nord.png" id="nord"  style="z-index:9" alt="Nantes Nord">
+        </div>
+        <div class="img">
+          <img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/erdre.png" id="erdre" style="z-index:10" alt="Nantes Erdre">
+        </div>
+        <div class="img">
+          <img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/doulon.png" id="doulon" style="z-index:11" alt="Doulon - Bottière">
+        </div>
+        <div class="img">
+          <img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/sud.png" id="sud" style="z-index:12" alt="Nantes Sud">
+        </div>
+      </div>
+      <div id="focus" class="row">
+        <div id="imgfocus" class="test" style="z-index:2">
+          <img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/back.png" id="back">
+          <img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/centrefc.png" id="centrefc" alt="Centre-Ville">
+          <img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/bellevuefc.png" id="bellevuefc"  alt="Bellevue - Chantenay - Saint-Anne">
+          <img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/zolafc.png" id="zolafc"  alt="Dervallières - Zola">
+          <img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/felixfc.png" id="felixfc"  alt="Hauts-Pavés - Saint-Félix">
+          <img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/malakofffc.png" id="malakofffc"  alt="Malakoff - Saint-Donatien">
+          <img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/ilefc.png" id="ilefc"  alt="Ile de Nantes">
+          <img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/breilfc.png" id="breilfc" alt="Breil - Barberie">
+          <img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/nordfc.png" id="nordfc" alt="Nantes Nord">
+          <img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/erdrefc.png" id="erdrefc" alt="Nantes Erdre">
+          <img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/doulonfc.png" id="doulonfc" alt="Doulon - Bottière">
+          <img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/sudfc.png" id="sudfc" alt="Nantes Sud">
+        </div>
+        <div id="txtfocus" class="test" style="z-index:2">
+          <span id="title">
+              <h1> NOS PARTENAIRES </h1>
+          </span>
+
+  <!-- modèle Partenaire
+
+  <div class="row">
+  <div class="col-3">
+  <a href="https://www.kuikui.fr/PARTENAIRE"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/PARTENAIRE.png"/></a>
+  </div>
+  <div class="col-9">
+  <h2> PARTENAIRE </h2>
+  <p> DESCRIPTION PARTENAIRE</p>
+  <div class="socialHub">
+    <a href="https://facebook.com/PARTENAIRE" target="_blank"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/facebook.png"/></a>
+    <a href="https://instagram.com/PARTENAIRE/" target="_blank"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/instagram.png"/></a>
+    <a href="https://twitter.com/PARTENAIRE" target="_blank"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/twitter.png"/></a>
+    <a href="https://youtube.com/channel/PARTENAIRE" target="_blank"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/youtube.png"/></a>
+    <a href="https://fr.linkedin.com/company/PARTENAIRE" target="_blank"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/linkedin.png"/></a>
+    <a href="https://PARTENAIRE.com" target="_blank"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/global.png"/></a>
+    <a href="mailto:MAIL@PARTENAIRE.COM"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/mail.png"/></a>
+  </div>
+  </div>
+  </div>
+
+  Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+  Icons made by <a href="https://www.flaticon.com/authors/becris" title="Becris">Becris</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>-->
+
+
+            <div id="centretxt" class="container-fluid">
+
+              <div class="row">
+                <div class="col-3">
+                  <a href="https://www.kuikui.fr/doe"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/doe.png"/></a>
+                </div>
+                <div class="col-9">
+                  <a style="text-decoration:none;" href="https://www.kuikui.fr/doe"><h2> DOE </h2></a>
+                  <p> Friperie </p>
+                  <div class="socialHub">
+                    <a href="https://facebook.com/doesecondemain" target="_blank"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/facebook.png"/></a>
+                    <a href="https://instagram.com/doe.shop/" target="_blank"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/instagram.png"/></a>
+                    <a href="https://doe-shop.com/" target="_blank"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/global.png"/></a>
+                    <a href="mailto:contact@doe-shop.com"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/mail.png"/></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-3">
+                  <a href="https://www.kuikui.fr/la-raffinerie-nantaise"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/laraffinerienantaise.png"/></a>
+                </div>
+                <div class="col-9">
+                  <a style="text-decoration:none;" href="https://www.kuikui.fr/la-raffinerie-nantaise"><h2> LA RAFFINERIE NANTAISE </h2></a>
+                  <p> Friperie </p>
+                  <div class="socialHub">
+                    <a href="https://facebook.com/laraffinerienantaise/" target="_blank"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/facebook.png"/></a>
+                    <a href="https://instagram.com/laraffinerienantaise/" target="_blank"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/instagram.png"/></a>
+                    <a href="https://www.laraffinerienantaise.com/" target="_blank"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/global.png"/></a>
+                    <a href="mailto:contact@laraffinerienantaise.com"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/mail.png"/></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-3">
+                  <a href="https://www.kuikui.fr/mauvais-genre"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/mauvaisgenre.png"/></a>
+                </div>
+                <div class="col-9">
+                  <a style="text-decoration:none;" href="https://www.kuikui.fr/mauvais-genre"><h2> MAUVAIS GENRE </h2></a>
+                  <p> Friperie 60s, 70s, 80s</p>
+                  <div class="socialHub">
+                    <a href="https://facebook.com/MauvaisGenre.Nantes" target="_blank"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/facebook.png"/></a>
+                    <a href="https://instagram.com/mauvaisgenre.nantes/" target="_blank"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/instagram.png"/></a>
+                    <a href="https://mauvais-genre-nantes.myshopify.com/" target="_blank"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/global.png"/></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-3">
+                  <a href="https://www.kuikui.fr/creperie-apres-la-pluie"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/apreslapluie.png"/></a>
+                </div>
+                <div class="col-9">
+                  <a style="text-decoration:none;" href="https://www.kuikui.fr/creperie-apres-la-pluie"><h2> APRÈS LA PLUIE </h2></a>
+                  <p> Crêperie / saladerie</p>
+                  <div class="socialHub">
+                    <a href="https://facebook.com/Après-la-pluie-918841358148189" target="_blank"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/facebook.png"/></a>
+                    <a href="https://instagram.com/apreslapluienantes/" target="_blank"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/instagram.png"/></a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+            <div id="bellevuetxt">
+
+              <div class="row">
+                <div class="col-3">
+                  <a href="https://www.kuikui.fr/lactic"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/lactic.png"/></a>
+                </div>
+                <div class="col-9">
+                  <a style="text-decoration:none;" href="https://www.kuikui.fr/lactic"><h2> LACTIC </h2></a>
+                  <p> Equipementier sportif / lifestyle </p>
+                  <div class="socialHub">
+                    <a href="https://facebook.com/Lactic-110293643925935" target="_blank"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/facebook.png"/></a>
+                    <a href="https://instagram.com/lactic.creation/" target="_blank"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/instagram.png"/></a>
+                    <a href="https://youtube.com/channel/UCAN3VJsyKQxYe4Vvwy5bhCw" target="_blank"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/youtube.png"/></a>
+                    <a href="https://www.lactic.shop/" target="_blank"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/global.png"/></a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+            <div id="zolatxt">
+            <h2 id="numerobis">Nous n'avons pas encore de partenaires dans ce quartier !</h2>
+            <h2 id="numerobis">Vous souhaitez devenir partenaire et rejoindre la karte Kuikui ?
+              N'hésitez pas à <a href="mailto:kuikui.contact@gmail.com">nous contacter</a> !</h2>
+            </div>
+
+
+            <div id="felixtxt">
+            <h2 id="numerobis">Nous n'avons pas encore de partenaires dans ce quartier !</h2>
+            <h2 id="numerobis">Vous souhaitez devenir partenaire et rejoindre la karte Kuikui ?
+              N'hésitez pas à <a href="mailto:kuikui.contact@gmail.com">nous contacter</a> !</h2>
+            </div>
+
+
+            <div id="malakofftxt">
+            <h2 id="numerobis">Nous n'avons pas encore de partenaires dans ce quartier !</h2>
+            <h2 id="numerobis">Vous souhaitez devenir partenaire et rejoindre la karte Kuikui ?
+              N'hésitez pas à <a href="mailto:kuikui.contact@gmail.com">nous contacter</a> !</h2>
+            </div>
+
+
+            <div id="iletxt" class="container-fluid">
+
+              <div class="row">
+                <div class="col-3">
+                  <a href="https://www.kuikui.fr/gru"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/gru.png"/></a>
+                </div>
+                <div class="col-9">
+                  <a style="text-decoration:none;" href="https://www.kuikui.fr/gru"><h2> GRU </h2></a>
+                  <p> Collectif d'architectes </p>
+                  <div class="socialHub">
+                    <a href="https://facebook.com/collectifgru/" target="_blank"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/facebook.png"/></a>
+                    <a href="https://instagram.com/collectifgru/" target="_blank"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/instagram.png"/></a>
+                    <a href="http://collectifgru.fr/" target="_blank"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/global.png"/></a>
+                    <a href="mailto:contact@collectifgru.fr" target="_blank"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/mail.png"/></a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+            <div id="breiltxt">
+            <h2 id="numerobis">Nous n'avons pas encore de partenaires dans ce quartier !</h2>
+            <h2 id="numerobis">Vous souhaitez devenir partenaire et rejoindre la karte Kuikui ?
+              N'hésitez pas à <a href="mailto:kuikui.contact@gmail.com">nous contacter</a> !</h2>
+            </div>
+
+
+            <div id="nordtxt">
+
+              <div class="row">
+                <div class="col-3">
+                  <a href="https://www.kuikui.fr/oui-vallo/pch"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/ouivalo.png"/></a>
+                </div>
+                <div class="col-9">
+                  <a style="text-decoration:none;" href="https://www.kuikui.fr/oui-vallo/pch"><h2> OUIVALO </h2></a>
+                  <p> Récolte de compost</p>
+                  <div class="socialHub">
+                    <a href="https://facebook.com/ouivalo/" target="_blank"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/facebook.png"/></a>
+                    <a href="https://instagram.com/oui_valo/" target="_blank"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/instagram.png"/></a>
+                    <a href="https://twitter.com/ouivalo" target="_blank"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/twitter.png"/></a>
+                    <a href="https://fr.linkedin.com/company/ouivalo" target="_blank"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/linkedin.png"/></a>
+                    <a href="https://ouivalo.fr/index.php" target="_blank"><img src="https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/global.png"/></a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+            <div id="erdretxt">
+            <h2 id="numerobis">Nous n'avons pas encore de partenaires dans ce quartier !</h2>
+            <h2 id="numerobis">Vous souhaitez devenir partenaire et rejoindre la karte Kuikui ?
+              N'hésitez pas à <a href="mailto:kuikui.contact@gmail.com">nous contacter</a> !</h2>
+            </div>
+
+
+            <div id="doulontxt">
+            <h2 id="numerobis">Nous n'avons pas encore de partenaires dans ce quartier !</h2>
+            <h2 id="numerobis">Vous souhaitez devenir partenaire et rejoindre la karte Kuikui ?
+              N'hésitez pas à <a href="mailto:kuikui.contact@gmail.com">nous contacter</a> !</h2>
+            </div>
+
+
+            <div id="sudtxt">
+            <h2 id="numerobis">Nous n'avons pas encore de partenaires dans ce quartier !</h2>
+            <h2 id="numerobis">Vous souhaitez devenir partenaire et rejoindre la karte Kuikui ?
+              N'hésitez pas à <a href="mailto:kuikui.contact@gmail.com">nous contacter</a> !</h2>
+            </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <style type="text/css" scoped>
+    /* Classes interactions */
+
+    .hover{
+      z-index: 15;
+      filter: drop-shadow(4px 4px 8px rgba(255,255,255,0.7)) drop-shadow(4px -4px 8px rgba(255,255,255,0.7)) drop-shadow(-4px 4px 8px rgba(255,255,255,0.7)) drop-shadow(-4px -4px 8px rgba(255,255,255,0.7));
+    }
+
+    .hover2{
+      filter: drop-shadow(2px 2px 2px rgba(255,255,255,0.3)) drop-shadow(2px -2px 2px rgba(255,255,255,0.3)) drop-shadow(-2px 2px 2px rgba(255,255,255,0.3)) drop-shadow(-2px -2px 2px rgba(255,255,255,0.3));
+      }
+
+    .hidden{
+      visibility: hidden;
+      position: absolute;
+    }
+
+    /* Containers et images */
+
+    #focus {
+      height: 100%;
+    }
+
+    #imgfocus{
+      padding-left: 2.5vw;
+      background-image: url("https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/fondimgfc.png");
+      background-repeat: repeat;
+    }
+
+    #imgfocus > img {
+    display: block;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 40vw;
+    max-height: 80vh;
+    }
+
+    #txtfocus{
+      background-image: url("https://cdn.website-editor.net/e36ddc5c55d448cd942e8020ff9916c3/dms3rep/multi/fondtxtfc.png");
+      background-repeat: repeat-y;
+      background-size: contain;
+      background-color: #f0f3f5;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      padding-left: 3%;
+    }
+
+    #txtfocus > div > div {
+      margin-top: 2.5vw;
+      width: 100%;
+    }
+
+    #txtfocus > div > div > div > a > img {
+      width: 87.5%;
+      height: auto;
+      border-radius: 2.5vw;
+      box-shadow: rgba(0,0,0,0.25) 0 3px 11px 0;
+      -moz-box-shadow: rgba(0,0,0,0.25) 0 3px 11px 0;
+      -webkit-box-shadow: rgba(0,0,0,0.25) 0 3px 11px 0;
+    }
+
+    .socialHub > a > img {
+      margin: 0.25vw 0.75vw 0.25vw 0;
+      width: 2vw;
+      height: auto;
+    }
+
+    #back{
+      margin: 0 !important;
+      padding-top: 2.5vw;
+      width: 10%;
+      height: auto;
+      position: relative !important;
+    }
+
+    .col-3,.col-9{
+        padding-right: 0.5vw !important;
+        padding-left: 0.5vw !important;
+    }
+
+    .test{
+      position: relative;
+      width: 100%;
+      padding-right: 15px;
+    }
+
+    /* Textes */
+
+    #title{
+      text-align: center;
+    }
+
+    #numerobis{
+      padding-top: 7.5vh;
+    }
+
+    .col-9{
+      padding-top: 0.75vw;
+    }
+
+    h1, h2, p{
+      font-family: "Quicksand";
+    }
+
+    h1 {
+      color: #022d4c;
+      padding-top: 1.5vw;
+      margin-bottom: 0.25vw;
+      font-weight: 1000 !important;
+      font-size: 3vw !important;
+    }
+
+    h2 {
+      color: #000000;
+      font-weight: bolder !important;
+      margin-bottom: 0.25vw !important;
+      margin-left: 0.5vw !important;
+      font-size: 1.75vw !important;
+      text-decoration: none;
+    }
+
+    p {
+      color: #5c5656;
+      font-size: 1.25vw !important;
+      font-weight: bold !important;
+      margin-bottom: 0.5vw !important;
+      margin-left: 0.5vw !important;
+    }
+
+    @media all and (orientation:portrait) {
+
+        #map img{
+        max-width: 275%;
+        margin-left: -75%;
+        }
+
+        #imgfocus > img {
+          max-width: 90vw;
+          max-height: 80%;
+        }
+
+        #imgfocus{
+          height: 60vh;
+          padding-bottom: 2.5vh;
+        }
+
+        #txtfocus{
+          padding-left: 5%;
+          min-height: 100vh;
+        }
+
+        .erdre {
+            height: 85vh !important;
+        }
+
+        h1 {
+          font-size: 6vw !important;
+        }
+
+        h2 {
+          font-size: 3.5vw !important;
+          padding-top: 1.5vw !important;
+          margin-bottom: 1vw !important;
+        }
+
+        p {
+          font-size: 2.5vw !important;
+        }
+
+        #txtfocus > div > div > div > a > img {
+          border-radius: 5vw;
+        }
+
+        .socialHub > a > img {
+          margin: 0.5vw 1.5vw 0.5vw 0;
+          width: 4vw;
+          height: auto;
+        }
+    }
+
+    @media all and (orientation:landscape) {
+
+      body{
+        overflow: hidden;
+      }
+
+      #map img{
+        width: 100vw;
+      }
+
+      .test{
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+      }
+
+
+    }
+
+
+
+
+
+    /* clip-path quartiers et css img cliquables */
+
+
+    #centre{
+      clip-path: polygon(47.305%	64.782%	,
+    47.110%	63.988%	,
+    45.847%	65.278%	,
+    45.119%	66.964%	,
+    44.876%	66.270%	,
+    42.351%	69.246%	,
+    41.962%	69.940%	,
+    42.933%	72.321%	,
+    43.371%	75.893%	,
+    44.828%	74.702%	,
+    46.770%	75.298%	,
+    47.693%	75.893%	,
+    49.150%	75.794%	,
+    50.510%	74.107%	,
+    51.676%	72.817%	,
+    50.413%	69.643%	,
+    49.684%	68.452%	,
+    48.324%	63.690%
+    );
+
+    }
+
+    #bellevue{
+      clip-path: polygon(22.292%	90.278%	,
+    23.749%	89.782%	,
+    24.186%	90.079%	,
+    24.769%	89.782%	,
+    26.226%	89.087%	,
+    27.538%	89.187%	,
+    28.120%	88.889%	,
+    28.752%	87.698%	,
+    29.140%	85.218%	,
+    29.043%	83.829%	,
+    29.335%	81.845%	,
+    30.015%	79.266%	,
+    30.112%	78.274%	,
+    31.666%	72.917%	,
+    32.054%	73.512%	,
+    33.414%	74.008%	,
+    35.308%	74.504%	,
+    36.425%	74.008%	,
+    37.251%	74.206%	,
+    38.465%	75.298%	,
+    40.262%	76.687%	,
+    41.282%	76.984%	,
+    42.205%	76.290%	,
+    42.254%	76.984%	,
+    41.525%	79.167%	,
+    41.428%	81.151%	,
+    41.039%	81.944%	,
+    39.728%	84.226%	,
+    37.105%	87.103%	,
+    36.183%	87.798%	,
+    36.134%	89.187%	,
+    36.085%	91.171%	,
+    35.454%	93.254%	,
+    34.094%	95.040%	,
+    32.540%	96.230%	,
+    30.500%	96.329%	,
+    29.237%	95.734%	,
+    27.052%	93.849%	,
+    25.692%	92.758%	,
+    24.526%	91.865%	,
+    23.507%	91.667%	,
+    22.729%	91.171%	,
+    22.438%	90.377%
+    );
+    }
+
+    #zola{
+      clip-path: polygon(
+    35.697%	59.325%	,
+    36.863%	59.425%	,
+    39.582%	63.492%	,
+    41.768%	67.460%	,
+    42.448%	70.238%	,
+    43.128%	71.825%	,
+    43.662%	75.397%	,
+    42.351%	76.885%	,
+    40.408%	77.083%	,
+    38.611%	75.893%	,
+    37.057%	74.405%	,
+    34.823%	74.702%	,
+    32.443%	73.909%	,
+    31.472%	73.413%	,
+    32.054%	71.230%	,
+    32.977%	68.155%	,
+    33.269%	65.972%	,
+    33.414%	62.996%	,
+    33.366%	61.706%	,
+    34.920%	58.234%);
+    }
+
+    #felix{
+      clip-path: polygon(
+        48.810%	45.833%	,
+      47.499%	45.833%	,
+      46.576%	46.528%	,
+      46.527%	47.619%	,
+      45.410%	48.611%	,
+      44.585%	51.091%	,
+      44.682%	53.472%	,
+      44.051%	54.266%	,
+      42.205%	57.341%	,
+      39.582%	58.829%	,
+      39.000%	60.417%	,
+      38.854%	61.508%	,
+      38.611%	62.897%	,
+      39.437%	63.889%	,
+      41.719%	68.353%	,
+      42.108%	70.238%	,
+      43.322%	68.849%	,
+      44.779%	67.163%	,
+      45.070%	67.758%	,
+      46.139%	65.774%	,
+      47.062%	64.980%	,
+      47.305%	65.675%	,
+      48.324%	63.988%	,
+      48.033%	63.393%	,
+      47.984%	62.897%	,
+      47.742%	59.425%	,
+      47.596%	59.226%	,
+      49.053%	55.556%	,
+      49.053%	53.770%	,
+      48.956%	52.579%	,
+      48.664%	51.488%	,
+      48.519%	50.000%	,
+      49.393%	47.817%	,
+      49.490%	46.627%);
+    }
+
+    #malakoff{
+      clip-path: polygon(
+        49.441%	52.579%	,
+      48.956%	52.877%	,
+      49.150%	54.464%	,
+      49.296%	54.861%	,
+      49.004%	56.349%	,
+      48.276%	57.341%	,
+      47.936%	58.433%	,
+      47.596%	59.226%	,
+      47.450%	59.921%	,
+      47.790%	63.988%	,
+      48.179%	64.484%	,
+      49.441%	69.147%	,
+      49.927%	69.643%	,
+      50.413%	69.643%	,
+      51.433%	72.321%	,
+      51.967%	72.817%	,
+      52.890%	71.925%	,
+      53.813%	71.825%	,
+      55.027%	71.429%	,
+      58.038%	68.452%	,
+      58.524%	67.659%	,
+      58.232%	64.683%	,
+      57.552%	62.500%	,
+      56.484%	60.417%	,
+      56.047%	59.325%	,
+      53.813%	54.365%	,
+      52.890%	53.571%	,
+      49.296%	52.480%);
+    }
+
+    #ile{
+      clip-path: polygon(
+        58.864%	68.750%	,
+      57.892%	70.238%	,
+      56.241%	71.230%	,
+      55.852%	71.825%	,
+      51.918%	73.313%	,
+      48.664%	76.290%	,
+      47.353%	75.893%	,
+      45.605%	75.198%	,
+      44.633%	75.198%	,
+      42.691%	77.579%	,
+      42.691%	78.373%	,
+      42.496%	78.869%	,
+      41.476%	82.738%	,
+      41.476%	83.532%	,
+      44.390%	83.829%	,
+      48.956%	83.631%	,
+      50.996%	82.341%	,
+      53.861%	79.067%	,
+      55.998%	76.091%	,
+      57.746%	72.123%	,
+      58.378%	71.627%	,
+      58.378%	70.734%	,
+      58.912%	69.643%	,
+      59.106%	69.345%);
+    }
+
+    #breil{
+      clip-path: polygon(
+        36.765%	60.020%	,
+      35.551%	59.722%	,
+      34.823%	58.730%	,
+      34.823%	57.837%	,
+      36.328%	55.754%	,
+      37.348%	53.770%	,
+      37.882%	54.563%	,
+      38.708%	53.075%	,
+      38.320%	52.877%	,
+      38.271%	50.992%	,
+      37.251%	49.802%	,
+      37.251%	49.405%	,
+      37.494%	48.313%	,
+      38.465%	45.833%	,
+      39.194%	44.940%	,
+      39.922%	44.643%	,
+      40.797%	42.857%	,
+      42.205%	44.048%	,
+      42.836%	43.948%	,
+      43.322%	45.139%	,
+      44.099%	45.437%	,
+      44.925%	45.139%	,
+      45.605%	46.131%	,
+      46.770%	46.429%	,
+      46.770%	48.016%	,
+      45.750%	49.008%	,
+      44.925%	51.389%	,
+      44.925%	53.869%	,
+      44.293%	54.563%	,
+      42.254%	57.837%	,
+      39.777%	59.325%	,
+      39.339%	60.417%	,
+      38.805%	62.996%);
+    }
+
+    #nord{
+      clip-path: polygon(
+        36.183%	20.536%	,
+        36.280%	20.635%	,
+        38.028%	27.579%	,
+        39.000%	30.258%	,
+        40.894%	37.103%	,
+        40.457%	42.659%	,
+        40.748%	43.651%	,
+        42.254%	45.040%	,
+        42.691%	44.940%	,
+        42.933%	45.833%	,
+        44.148%	46.032%	,
+        44.876%	45.833%	,
+        45.313%	46.825%	,
+        46.770%	47.123%	,
+        47.790%	46.528%	,
+        48.567%	46.627%	,
+        48.907%	46.925%	,
+        49.296%	46.825%	,
+        49.781%	45.635%	,
+        49.781%	45.139%	,
+        49.927%	43.849%	,
+        50.121%	43.353%	,
+        51.384%	38.988%	,
+        51.724%	35.516%	,
+        49.733%	34.425%	,
+        48.713%	34.226%	,
+        48.519%	33.433%	,
+        47.450%	30.456%	,
+        47.353%	27.778%	,
+        46.722%	27.282%	,
+        46.382%	26.687%	,
+        46.576%	23.710%	,
+        45.993%	22.619%	,
+        44.828%	23.016%	,
+        43.711%	21.329%	,
+        42.885%	21.032%	,
+        40.991%	21.032%	,
+        39.971%	20.139%	,
+        38.951%	20.337%	,
+        38.222%	18.750%	,
+        37.057%	18.750%	,
+        36.134%	20.238%);
+    }
+
+    #erdre{
+      clip-path: polygon(
+        55.270%	1.786%	,
+      53.910%	3.274%	,
+      54.007%	5.456%	,
+      54.590%	6.448%	,
+      55.707%	12.302%	,
+      55.221%	17.063%	,
+      54.395%	19.841%	,
+      53.521%	22.024%	,
+      53.618%	22.718%	,
+      52.307%	25.595%	,
+      52.356%	26.786%	,
+      52.550%	27.282%	,
+      52.307%	29.266%	,
+      52.404%	30.456%	,
+      52.841%	30.754%	,
+      52.938%	32.540%	,
+      52.695%	33.036%	,
+      52.064%	33.730%	,
+      51.676%	36.409%	,
+      51.870%	37.500%	,
+      50.753%	42.163%	,
+      50.267%	42.361%	,
+      50.219%	43.353%	,
+      49.441%	48.313%	,
+      48.567%	50.496%	,
+      48.567%	51.587%	,
+      48.907%	52.778%	,
+      52.695%	54.266%	,
+      54.250%	48.611%	,
+      55.804%	44.048%	,
+      57.941%	38.591%	,
+      59.203%	36.409%	,
+      60.952%	34.127%	,
+      60.952%	30.456%	,
+      60.563%	30.258%	,
+      60.661%	29.266%	,
+      62.020%	26.190%	,
+      63.137%	21.329%	,
+      63.040%	21.032%	,
+      61.583%	19.048%	,
+      60.175%	18.750%	,
+      60.223%	18.353%	,
+      60.223%	15.873%	,
+      60.466%	14.683%	,
+      59.883%	12.599%	,
+      59.883%	11.905%	,
+      60.321%	10.317%	,
+      60.612%	8.829%	,
+      60.612%	3.373%	,
+      60.175%	1.885%	,
+      59.252%	2.778%	,
+      58.281%	1.389%	,
+      57.407%	1.488%	,
+      56.727%	2.679%	,
+      55.075%	1.885%);
+    }
+
+    #doulon{
+      clip-path: polygon(
+        62.797%	31.250%	,
+        61.049%	33.036%	,
+        59.009%	35.913%	,
+        57.892%	37.996%	,
+        55.270%	44.643%	,
+        53.667%	49.008%	,
+        52.550%	53.869%	,
+        53.424%	54.762%	,
+        55.318%	58.730%	,
+        57.164%	62.500%	,
+        58.038%	64.980%	,
+        58.378%	67.758%	,
+        59.835%	66.369%	,
+        61.049%	65.972%	,
+        61.632%	65.377%	,
+        63.720%	63.889%	,
+        64.109%	63.790%	,
+        67.169%	60.714%	,
+        68.480%	57.837%	,
+        66.877%	53.274%	,
+        66.877%	50.595%	,
+        67.169%	49.802%	,
+        66.926%	49.008%	,
+        66.877%	45.040%	,
+        66.051%	44.147%	,
+        65.517%	42.659%	,
+        64.740%	39.980%	,
+        64.449%	39.583%	,
+        63.817%	36.508%	,
+        64.060%	34.127%	,
+        64.692%	34.127%	,
+        64.594%	30.556%	,
+        64.206%	29.464%);
+    }
+
+    #sud{
+      clip-path: polygon(
+        57.649%	91.270%	,
+      57.018%	90.575%	,
+      56.921%	89.286%	,
+      55.707%	89.385%	,
+      55.755%	87.202%	,
+      56.047%	85.615%	,
+      54.784%	85.615%	,
+      54.104%	85.119%	,
+      54.784%	83.829%	,
+      54.832%	83.433%	,
+      55.464%	82.440%	,
+      54.492%	79.960%	,
+      54.104%	80.853%	,
+      52.598%	82.639%	,
+      51.384%	83.333%	,
+      50.219%	84.623%	,
+      48.567%	84.921%	,
+      48.664%	87.103%	,
+      49.150%	88.294%	,
+      49.684%	87.798%	,
+      50.267%	87.202%	,
+      50.704%	88.294%	,
+      51.627%	89.782%	,
+      52.550%	92.163%	,
+      52.695%	94.246%	,
+      53.667%	97.222%	,
+      55.755%	98.611%	,
+      57.698%	99.306%	,
+      58.621%	97.817%	,
+      59.252%	95.734%	,
+      59.738%	94.742%	,
+      60.126%	93.056%	,
+      60.175%	91.369%);
+    }
+
+    div.img{
+      pointer-events: none;
+      width: auto;
+      height: auto;
+      position: absolute;
+    }
+
+    img{
+      pointer-events: all;
+    }
+
+    </style>
+
+    <script type="text/javascript">
+
+    $(document).ready(function () {
+
+      $("#focus").toggleClass("hidden");
+      $("#imgfocus > img ").toggleClass("hidden");
+      $("#txtfocus > div ").toggleClass("hidden");
+
+      $("#back").click(function () {
+        $("#map").toggleClass("hidden");
+        $("#focus").toggleClass("hidden");
+        $("#imgfocus").removeClass("erdre");
+        $("#imgfocus > img ").removeClass("hidden");
+        $("#imgfocus > img ").toggleClass("hidden");
+        $("#txtfocus > div ").removeClass("hidden");
+        $("#txtfocus > div ").toggleClass("hidden");
+      });
+
+      $("#back").mouseenter(function () {
+        $("#back").toggleClass("hover2");
+      });
+
+      $("#back").mouseleave(function () {
+        $("#back").toggleClass("hover2");
+      });
+
+      $("#centre").mouseenter(function () {
+        $("#centre").parent().toggleClass("hover");
+      });
+
+      $("#centre").mouseleave(function () {
+        $("#centre").parent().toggleClass("hover");
+      });
+
+      $("#centre").click(function () {
+        $("#map").toggleClass("hidden");
+        $("#focus").toggleClass("hidden");
+        $("#centrefc").toggleClass("hidden");
+        $("#centretxt").toggleClass("hidden");
+        $("#back").toggleClass("hidden");
+      });
+
+      $("#bellevue").mouseenter(function () {
+        $("#bellevue").parent().toggleClass("hover");
+      });
+
+      $("#bellevue").mouseleave(function () {
+        $("#bellevue").parent().toggleClass("hover");
+      });
+
+      $("#bellevue").click(function () {
+        $("#map").toggleClass("hidden");
+        $("#focus").toggleClass("hidden");
+        $("#bellevuefc").toggleClass("hidden");
+        $("#bellevuetxt").toggleClass("hidden");
+        $("#back").toggleClass("hidden");
+      });
+
+      $("#zola").mouseenter(function () {
+        $("#zola").parent().toggleClass("hover");
+      });
+
+      $("#zola").mouseleave(function () {
+        $("#zola").parent().toggleClass("hover");
+      });
+
+      $("#zola").click(function () {
+        $("#map").toggleClass("hidden");
+        $("#focus").toggleClass("hidden");
+        $("#zolafc").toggleClass("hidden");
+        $("#zolatxt").toggleClass("hidden");
+        $("#back").toggleClass("hidden");
+      });
+
+      $("#felix").mouseenter(function () {
+        $("#felix").parent().toggleClass("hover");
+      });
+
+      $("#felix").mouseleave(function () {
+        $("#felix").parent().toggleClass("hover");
+      });
+
+      $("#felix").click(function () {
+        $("#map").toggleClass("hidden");
+        $("#focus").toggleClass("hidden");
+        $("#felixfc").toggleClass("hidden");
+        $("#felixtxt").toggleClass("hidden");
+        $("#back").toggleClass("hidden");
+      });
+
+      $("#malakoff").mouseenter(function () {
+        $("#malakoff").parent().toggleClass("hover");
+      });
+
+      $("#malakoff").mouseleave(function () {
+        $("#malakoff").parent().toggleClass("hover");
+      });
+
+      $("#malakoff").click(function () {
+        $("#map").toggleClass("hidden");
+        $("#focus").toggleClass("hidden");
+        $("#malakofffc").toggleClass("hidden");
+        $("#malakofftxt").toggleClass("hidden");
+        $("#back").toggleClass("hidden");
+      });
+
+      $("#ile").mouseenter(function () {
+        $("#ile").parent().toggleClass("hover");
+      });
+
+      $("#ile").mouseleave(function () {
+        $("#ile").parent().toggleClass("hover");
+      });
+
+      $("#ile").click(function () {
+        $("#map").toggleClass("hidden");
+        $("#focus").toggleClass("hidden");
+        $("#ilefc").toggleClass("hidden");
+        $("#iletxt").toggleClass("hidden");
+        $("#back").toggleClass("hidden");
+      });
+
+      $("#breil").mouseenter(function () {
+        $("#breil").parent().toggleClass("hover");
+      });
+
+      $("#breil").mouseleave(function () {
+        $("#breil").parent().toggleClass("hover");
+      });
+
+      $("#breil").click(function () {
+        $("#map").toggleClass("hidden");
+        $("#focus").toggleClass("hidden");
+        $("#breilfc").toggleClass("hidden");
+        $("#breiltxt").toggleClass("hidden");
+        $("#back").toggleClass("hidden");
+      });
+
+      $("#nord").mouseenter(function () {
+        $("#nord").parent().toggleClass("hover");
+      });
+
+      $("#nord").mouseleave(function () {
+        $("#nord").parent().toggleClass("hover");
+      });
+
+      $("#nord").click(function () {
+        $("#map").toggleClass("hidden");
+        $("#focus").toggleClass("hidden");
+        $("#nordfc").toggleClass("hidden");
+        $("#nordtxt").toggleClass("hidden");
+        $("#back").toggleClass("hidden");
+      });
+
+      $("#erdre").mouseenter(function () {
+        $("#erdre").parent().toggleClass("hover");
+      });
+
+      $("#erdre").mouseleave(function () {
+        $("#erdre").parent().toggleClass("hover");
+      });
+
+      $("#erdre").click(function () {
+        $("#map").toggleClass("hidden");
+        $("#focus").toggleClass("hidden");
+        $("#erdrefc").toggleClass("hidden");
+        $("#erdretxt").toggleClass("hidden");
+        $("#back").toggleClass("hidden");
+        $("#imgfocus").toggleClass("erdre");
+      });
+
+      $("#doulon").mouseenter(function () {
+        $("#doulon").parent().toggleClass("hover");
+      });
+
+      $("#doulon").mouseleave(function () {
+        $("#doulon").parent().toggleClass("hover");
+      });
+
+      $("#doulon").click(function () {
+        $("#map").toggleClass("hidden");
+        $("#focus").toggleClass("hidden");
+        $("#doulonfc").toggleClass("hidden");
+        $("#doulontxt").toggleClass("hidden");
+        $("#back").toggleClass("hidden");
+      });
+
+      $("#sud").mouseenter(function () {
+        $("#sud").parent().toggleClass("hover");
+      });
+
+      $("#sud").mouseleave(function () {
+        $("#sud").parent().toggleClass("hover");
+      });
+
+      $("#sud").click(function () {
+        $("#map").toggleClass("hidden");
+        $("#focus").toggleClass("hidden");
+        $("#sudfc").toggleClass("hidden");
+        $("#sudtxt").toggleClass("hidden");
+        $("#back").toggleClass("hidden");
+      });
+
+    })
+
+    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+  </div>
