@@ -16,6 +16,46 @@
 
 /* Containers et images */
 
+#fond {
+  border-bottom: 2px solid #1a1a1a;
+  border-left: 2px solid #1a1a1a;
+  border-right: 2px solid #1a1a1a;
+}
+
+#navbar{
+  background-color: #53ffe0;
+  width: 100%;
+  height: 11%;
+  border-bottom: 3px solid #1a1a1a;
+  align-items: center;
+  display: inline-flex;
+}
+
+#topleftkuikui{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 14vw;
+}
+
+#navtitles{
+  align-items: center;
+  display: inline-flex;
+  margin-left: 5.45vw;
+}
+
+#navicons{
+  margin-left: 15vw;
+}
+
+#navicons > a > img {
+  margin-top: -0.75vw;
+  margin-left: 0.90vw;
+  width: 1.35vw;
+  height: auto;
+  filter: opacity(75%);
+}
+
 #focus {
   height: 100%;
 }
@@ -89,13 +129,8 @@ max-height: 80vh;
   padding-right: 15px;
 }
 
-#fond{
-  border: 2px solid #042a45;
-  filter: drop-shadow(2px 2px 2px rgba(26,26,26,0.3)) drop-shadow(2px -2px 2px rgba(26,26,26,0.3)) drop-shadow(-2px 2px 2px rgba(26,26,26,0.3)) drop-shadow(-2px -2px 2px rgba(26,26,26,0.3));
-}
-
 body{
-  background-color:  #52fee040 !important;
+  background-color:  #022d4c !important;
 }
 
 /* Textes */
@@ -112,7 +147,7 @@ body{
   padding-top: 0.75vw;
 }
 
-h1, h2, p{
+h1, h2, h5, h6, p{
   font-family: "Quicksand";
 }
 
@@ -133,6 +168,33 @@ h2 {
   text-decoration: none;
 }
 
+h5 {
+  color: white;
+  font-weight: bolder !important;
+  margin-bottom: 0.25vw !important;
+  margin-left: 0.5vw !important;
+  font-size: 1.75vw !important;
+}
+
+h6{
+  color: #77b5fe;
+  font-weight: bolder !important;
+  font-size: 2.5vw !important;
+}
+
+#kuikui{
+  font-size: 1.95vw !important;
+}
+
+#petit{
+  font-weight: normal !important;
+  font-size: 0.95vw !important;
+}
+
+.navtitle {
+  font-size: 1.15vw !important;
+}
+
 p {
   color: #5c5656;
   font-size: 1.25vw !important;
@@ -142,9 +204,19 @@ p {
 }
 
 @media all and (orientation:portrait) {
+
+    #navbar{
+      visibility: hidden;
+      height: 0vh;
+    }
+
     html, body {
       max-width: 100%;
       overflow-x: hidden;
+    }
+
+    #fond {
+      border-top: 2px solid #1a1a1a;
     }
 
     #map img{
@@ -206,8 +278,8 @@ p {
 
   #map img{
     max-width: 96.5vw;
-    max-height: 100vh;
-    margin-left: 1.75vw;
+    max-height: 89vh;
+    margin-left: 6.9vw;
   }
 
   .test{
@@ -224,8 +296,6 @@ p {
 
 
 /* clip--path quartiers et css img cliquables */
-#fond {
-}
 
 #cloud{
   -webkit-clip-path: polygon(26% 46%, 26% 41%, 27% 38%, 28% 34%, 32% 31%, 34% 33%, 36% 35%, 38% 37%, 38% 42%, 36% 46%, 34% 49%, 32% 49%, 28% 49%);
