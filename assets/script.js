@@ -8,9 +8,10 @@ $(document).ready(function () {
   var isMac = navigator.platform.toUpperCase().indexOf('MAC')>=0;
   var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
   var isIOS = /(iPhone|iPod|iPad)/i.test(navigator.platform);
+  var isFirefox = /firefox/i.test(navigator.userAgent)
 
-  if((isMac && isSafari) || isIOS ){
-    window.location.href = "http://www.lakartekuikui.fr/safari&ios";
+  if((isMac && isSafari) || isIOS || isFirefox){
+    window.location.href = "http://www.lakartekuikui.fr/v2";
   }
 
   }, 1000);
