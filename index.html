@@ -4,73 +4,99 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
-  <link rel="stylesheet" href ="assets/monstyle.css">
+  <link rel="stylesheet" href ="assets/monstylev2.css">
   <link rel="stylesheet" href="assets/bootstrap.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
   <script src="assets/jquery-3.3.1.min.js"></script>
   <script src="assets/bootstrap.bundle.js"></script>
-  <script src="assets/script.js"></script>
+  <script src="assets/scriptv2.js"></script>
   <title>La Karte</title>
 </head>
 
 <body id="bg">
-    <div id="navbar">
-      <div id="topleftkuikui">
-        <a id="home" style="text-decoration: none;" href="https://www.kuikui.fr/"><h5 id="kuikui"> KUIKUI </h5></a>
-        <h5 id="petit">Petit à petit...</h5>
-      </div>
-      <div id="navtitles">
-        <a style="text-decoration: none;" href="http://lakartekuikui.fr/"><h5 class="navtitle"> LA KARTE </h5></a><h6>&nbsp;·</h6>
-        <a style="text-decoration: none;" href="https://www.kuikui.fr/partenaires"><h5 class="navtitle"> LE PERCHOIR </h5></a><h6>&nbsp;·</h6>
-        <a style="text-decoration: none;" href="https://www.kuikui.fr/kuikuisine"><h5 class="navtitle"> LA KUIKUISINE </h5></a><h6>&nbsp;·</h6>
-        <a style="text-decoration: none;" href="https://www.kuikui.fr/contact"><h5 class="navtitle"> KONTACT & NOUS </h5></a>
-      </div>
-      <div id="navicons">
-        <a href="https://facebook.com/Kuikui-101004801707617" target="_blank"><img src="assets/media/icons/facebook.png"/></a>
-        <a href="https://instagram.com/kuikui_nantes/" target="_blank"><img src="assets/media/icons/instagram.png"/></a>
-        <a href="mailto:kuikui.contact@gmail.com"><img src="assets/media/icons/mail.png"/></a>
-      </div>
+  <div id="navbar">
+    <div id="topleftkuikui">
+      <a id="home" style="text-decoration: none;"><h5 id="kuikui"> KUIKUI </h5></a>
+      <h5 id="petit">Petit à petit...</h5>
+    </div>
+    <div id="navtitles">
+      <a style="text-decoration: none;"><h5 class="navtitle"> LA KARTE </h5></a><h6>&nbsp;·</h6>
+      <a style="text-decoration: none;"><h5 class="navtitle"> LE PERCHOIR </h5></a><h6>&nbsp;·</h6>
+      <a style="text-decoration: none;"><h5 class="navtitle"> LA KUIKUISINE </h5></a><h6>&nbsp;·</h6>
+      <a style="text-decoration: none;"><h5 class="navtitle"> KONTACT & NOUS </h5></a>
+    </div>
+    <div id="navicons">
+      <a target="_blank"><img src="assets/media/icons/facebook.png"/></a>
+      <a target="_blank"><img src="assets/media/icons/instagram.png"/></a>
+      <a><img src="assets/media/icons/mail.png"/></a>
+    </div>
     </div>
     <div id ="contain" class="container-fluid">
         <div id="map" class="row">
+
           <div class="img">
+          <h3 class="name" id="centre" >Centre<br>&nbsp;-Ville</h3>
+          <h3 class="name" id="bellevue">&nbsp;&nbsp;Bellevue<br>Chantenay</h3>
+          <h3 class="name" id="zola">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Zola<br>Dervallières</h3>
+          <h3 class="name" id="felix">&nbsp;Saint<br>-Félix</h3>
+          <h3 class="name" id="malakoff">Malakoff<br>&nbsp;&nbsp;&nbsp;Saint<br>&nbsp;&nbsp;&nbsp;&nbsp;-Donatien</h3>
+          <h3 class="name" id="sud">Nantes<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sud</h3>
+          <h3 class="name" id="doulon">&nbsp;Doulon<br>Bottière</h3>
+          <h3 class="name" id="erdre">Nantes<br>&nbsp;&nbsp;Erdre</h3>
+          <h3 class="name" id="nord">Nantes<br>&nbsp;&nbsp;Nord</h3>
+          <h3 class="name" id="breil">&nbsp;&nbsp;&nbsp;&nbsp;Breil<br>Barberie</h3>
+          <h3 class="name" id="ile">Île de Nantes</h3>
+          <h3 class="name" id="cloud">Partenaires <br>en&nbsp;ligne</h3>
+
           <img src="assets/media/fonds/fond.png" id="fond" style="z-index:1" alt="Fond de la carte">
           </div>
+
           <div class="img">
-            <img src="assets/media/quartiers/centre.png" id="centre" style="z-index:2" alt="Centre-Ville">
+            <img src="assets/media/quartierssansnom/centre.png" id="centreimg" style="z-index:2" alt="Centre-Ville">
           </div>
+
           <div class="img">
-            <img src="assets/media/quartiers/bellevue.png" id="bellevue"  style="z-index:3" alt="Bellevue - Chantenay - Saint-Anne">
+            <img src="assets/media/quartierssansnom/bellevue.png" id="bellevueimg" style="z-index:3" alt="Bellevue - Chantenay - Saint-Anne">
           </div>
+
           <div class="img">
-            <img src="assets/media/quartiers/zola.png" id="zola"  style="z-index:4" alt="Dervallières - Zola">
+            <img src="assets/media/quartierssansnom/zola.png" id="zolaimg" style="z-index:4" alt="Dervallières - Zola">
           </div>
+
           <div class="img">
-            <img src="assets/media/quartiers/felix.png" id="felix"  style="z-index:5" alt="Hauts-Pavés - Saint-Félix">
+            <img src="assets/media/quartierssansnom/felix.png" id="feliximg" style="z-index:5" alt="Hauts-Pavés - Saint-Félix">
           </div>
+
           <div class="img">
-            <img src="assets/media/quartiers/malakoff.png" id="malakoff"  style="z-index:6" alt="Malakoff - Saint-Donatien">
+            <img src="assets/media/quartierssansnom/malakoff.png" id="malakoffimg" style="z-index:6" alt="Malakoff - Saint-Donatien">
           </div>
+
           <div class="img">
-            <img src="assets/media/quartiers/ile.png" id="ile"  style="z-index:7" alt="Ile de Nantes">
+            <img src="assets/media/quartierssansnom/ile.png" id="ileimg" style="z-index:7" alt="Ile de Nantes">
           </div>
+
           <div class="img">
-            <img src="assets/media/quartiers/breil.png" id="breil"  style="z-index:8" alt="Breil - Barberie">
+            <img src="assets/media/quartierssansnom/breil.png" id="breilimg" style="z-index:8" alt="Breil - Barberie">
           </div>
+
           <div class="img">
-            <img src="assets/media/quartiers/nord.png" id="nord"  style="z-index:9" alt="Nantes Nord">
+            <img src="assets/media/quartierssansnom/nord.png" id="nordimg" style="z-index:9" alt="Nantes Nord">
           </div>
+
           <div class="img">
-            <img src="assets/media/quartiers/erdre.png" id="erdre" style="z-index:10" alt="Nantes Erdre">
+            <img src="assets/media/quartierssansnom/erdre.png" id="erdreimg" style="z-index:10" alt="Nantes Erdre">
           </div>
+
           <div class="img">
-            <img src="assets/media/quartiers/doulon.png" id="doulon" style="z-index:11" alt="Doulon - Bottière">
+            <img src="assets/media/quartierssansnom/doulon.png" id="doulonimg" style="z-index:11" alt="Doulon - Bottière">
           </div>
+
           <div class="img">
-            <img src="assets/media/quartiers/sud.png" id="sud" style="z-index:12" alt="Nantes Sud">
+            <img src="assets/media/quartierssansnom/sud.png" id="sudimg" style="z-index:12" alt="Nantes Sud">
           </div>
+
           <div class="img">
-            <img src="assets/media/quartiers/cloud.png" id="cloud" style="z-index:13" alt="Pas de quartier">
+            <img src="assets/media/quartierssansnom/cloud.png" id="cloudimg" style="z-index:13" alt="Pas de quartier">
           </div>
 
         </div>
@@ -847,8 +873,8 @@
                     <a href="https://www.etsy.com/fr/shop/PARTENAIRE" target="_blank"><img src="assets/media/icons/etsy.png"/></a>
                     <a href="https://www.pinterest.com/PARTENAIRE" target="_blank"><img src="assets/media/icons/pinterest.png"/></a>
                     <a href="https://www.vinted.com/PARTENAIRE" target="_blank"><img src="assets/media/icons/vinted.png"/></a>
-                    <a href="mailto:MAIL@PARTENAIRE.COM"><img src="assets/media/icons/mail.png"/></a>
                     <a href="https://PARTENAIRE.com" target="_blank"><img src="assets/media/icons/global.png"/></a>
+                    <a href="mailto:MAIL@PARTENAIRE.COM"><img src="assets/media/icons/mail.png"/></a>
                   </div>
                 </div>
               </div>
@@ -857,9 +883,6 @@
 
 
           </div>
-        </div>
-
-
       </div>
       <svg width="0" height="0">
         <defs>
