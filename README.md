@@ -5,3 +5,5 @@
 # La Karte
 
 [Carte interactive](https://gdelaunay.github.io/lakarte/) de référencement de commerces partenaires à Nantes, par quartier. 
+</br> </br> </br>
+![Capture4](https://github.com/gdelaunay/lakarte/assets/55590623/8cee8efc-e9ed-4191-bc8c-087fc6d293c4)
